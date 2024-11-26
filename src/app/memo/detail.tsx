@@ -1,3 +1,4 @@
+import Feather from "@expo/vector-icons/Feather";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 
 import CircleButton from "../../components/CircleButton";
@@ -26,7 +27,9 @@ const Detail = () => {
           「硝子をぶっつかっです。 係り、それに硝子。 つい。」
         </Text>
       </ScrollView>
-      <CircleButton style={{ top: 160 }}>＋</CircleButton>
+      <CircleButton style={{ top: 160 }}>
+        <Feather name="edit" size={32} />
+      </CircleButton>
     </View>
   );
 };
